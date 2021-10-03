@@ -2,6 +2,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_DefaultWindow(object):
+    """
+    A class of the window for start
+    """
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(516, 411)
