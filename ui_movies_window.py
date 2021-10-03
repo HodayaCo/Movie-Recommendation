@@ -1,4 +1,7 @@
 class Ui_Dialog(object):
+    """
+    A class of the window for viewing recommended movies
+    """
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(471, 455)
@@ -63,6 +66,4 @@ class Ui_Dialog(object):
             image.loadFromData(data)
             pixmap1 = QtGui.QPixmap(image)
             lblarr[i].setPixmap(pixmap1.scaled(201, 131))
-
-            # hbox.addWidget(lblarr[counter])
-            # self.setLayout(hbox)
+            
